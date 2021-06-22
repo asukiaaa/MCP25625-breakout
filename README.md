@@ -4,6 +4,8 @@ A breakout board of MCP25625.
 
 ![mcp25625-breakout](/docs/mcp25625-breakout.jpg)
 
+Schematic: [docs/mcp25625-breakout.pdf](docs/mcp25625-breakout.pdf)
+
 ## Components
 
 - MCP25625 SSOP28
