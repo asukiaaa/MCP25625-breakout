@@ -51,18 +51,6 @@ NoConn ~ 4500 3900
 NoConn ~ 4500 3700
 NoConn ~ 4500 3600
 NoConn ~ 4500 3500
-NoConn ~ 4500 3300
-$Comp
-L Device:Resonator Y1
-U 1 1 6096B95F
-P 5850 3850
-F 0 "Y1" V 6150 3700 50  0000 L CNN
-F 1 "Resonator" V 6050 3400 50  0000 L CNN
-F 2 "my-kicad-footprints:Resonator_SMD_Murata_CSTxExxV-3Pin_3.0x1.1mm_narrow" H 5825 3850 50  0001 C CNN
-F 3 "~" H 5825 3850 50  0001 C CNN
-	1    5850 3850
-	0    -1   -1   0   
-$EndComp
 $Comp
 L Interface_CAN_LIN:MCP25625-x-SS U1
 U 1 1 60968F8D
@@ -75,13 +63,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/20005282B.pdf" H 5100 4100 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5850 3700 5700 3700
-Wire Wire Line
 	5700 4000 5850 4000
-Wire Wire Line
-	6050 3850 6050 4700
-Wire Wire Line
-	6050 4700 5300 4700
 $Comp
 L Device:C C2
 U 1 1 6096D834
@@ -115,19 +97,6 @@ F 3 "" H 5500 2300 50  0001 C CNN
 	1    5500 2300
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 6096ED61
-P 4400 2600
-F 0 "#PWR0103" H 4400 2350 50  0001 C CNN
-F 1 "GND" H 4500 2600 50  0000 C CNN
-F 2 "" H 4400 2600 50  0001 C CNN
-F 3 "" H 4400 2600 50  0001 C CNN
-	1    4400 2600
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 2600 4500 2600
 $Comp
 L power:GND #PWR0104
 U 1 1 60970825
@@ -169,19 +138,19 @@ Text Label 6150 2200 0    50   ~ 0
 CANH
 Text Label 6100 2950 0    50   ~ 0
 CANL
-Text Label 3100 3600 0    50   ~ 0
-CANH
 Text Label 3100 3700 0    50   ~ 0
+CANH
+Text Label 3100 3800 0    50   ~ 0
 CANL
 $Comp
 L power:GND #PWR0105
 U 1 1 60A3EF40
-P 3400 3500
-F 0 "#PWR0105" H 3400 3250 50  0001 C CNN
-F 1 "GND" H 3405 3327 50  0000 C CNN
-F 2 "" H 3400 3500 50  0001 C CNN
-F 3 "" H 3400 3500 50  0001 C CNN
-	1    3400 3500
+P 3500 3600
+F 0 "#PWR0105" H 3500 3350 50  0001 C CNN
+F 1 "GND" H 3600 3600 50  0000 C CNN
+F 2 "" H 3500 3600 50  0001 C CNN
+F 3 "" H 3500 3600 50  0001 C CNN
+	1    3500 3600
 	1    0    0    -1  
 $EndComp
 Text Label 4500 2800 2    50   ~ 0
@@ -205,21 +174,19 @@ INT
 Text Label 3100 3200 0    50   ~ 0
 INT
 $Comp
-L Connector_Generic:Conn_01x10 J1
+L Connector_Generic:Conn_01x11 J1
 U 1 1 60A42D68
-P 2900 3200
-F 0 "J1" H 2818 3817 50  0000 C CNN
-F 1 "Conn_01x10" H 2818 3726 50  0000 C CNN
-F 2 "my-kicad-footprints:PinHeader_1x10_P2.54mm_Vertical_witout_silk" H 2900 3200 50  0001 C CNN
-F 3 "~" H 2900 3200 50  0001 C CNN
-	1    2900 3200
+P 2900 3300
+F 0 "J1" H 2800 4050 50  0000 C CNN
+F 1 "Conn_01x11" H 2800 3950 50  0000 C CNN
+F 2 "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk" H 2900 3300 50  0001 C CNN
+F 3 "~" H 2900 3300 50  0001 C CNN
+	1    2900 3300
 	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3400 3500 3100 3500
-Text Label 3100 3300 0    50   ~ 0
-V_IO
 Text Label 3100 3400 0    50   ~ 0
+V_IO
+Text Label 3100 3500 0    50   ~ 0
 V_DDA
 Text Label 4550 1800 0    50   ~ 0
 V_IO
@@ -277,4 +244,179 @@ Wire Wire Line
 Wire Wire Line
 	6250 2400 6450 2400
 NoConn ~ 6450 2600
+$Comp
+L my-kicad-symbols:SiT2001B-MEMS-Clock-Generator U3
+U 1 1 60EA6BF5
+P 8450 4400
+F 0 "U3" H 8600 4750 50  0000 L CNN
+F 1 "SiT2001B-MEMS-Clock-Generator" H 8600 4850 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 8450 4400 50  0001 C CNN
+F 3 "" H 8450 4400 50  0001 C CNN
+	1    8450 4400
+	1    0    0    -1  
+$EndComp
+NoConn ~ 5700 3700
+Text Label 3100 3300 0    50   ~ 0
+RESET
+Text Label 4500 3300 2    50   ~ 0
+RESET
+$Comp
+L power:GND #PWR0103
+U 1 1 6096ED61
+P 4500 2600
+F 0 "#PWR0103" H 4500 2350 50  0001 C CNN
+F 1 "GND" H 4600 2600 50  0000 C CNN
+F 2 "" H 4500 2600 50  0001 C CNN
+F 3 "" H 4500 2600 50  0001 C CNN
+	1    4500 2600
+	-1   0    0    -1  
+$EndComp
+Text Label 9150 4300 0    50   ~ 0
+16MHz
+$Comp
+L Device:C C5
+U 1 1 60EB2EF2
+P 9000 4450
+F 0 "C5" H 9115 4496 50  0000 L CNN
+F 1 "22pf" H 9115 4405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 9038 4300 50  0001 C CNN
+F 3 "~" H 9000 4450 50  0001 C CNN
+	1    9000 4450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 4300 9000 4300
+Connection ~ 9000 4300
+Wire Wire Line
+	9000 4300 8850 4300
+Text Label 5850 4000 0    50   ~ 0
+16MHz
+$Comp
+L power:GND #PWR0107
+U 1 1 60EB5118
+P 8450 4800
+F 0 "#PWR0107" H 8450 4550 50  0001 C CNN
+F 1 "GND" H 8455 4627 50  0000 C CNN
+F 2 "" H 8450 4800 50  0001 C CNN
+F 3 "" H 8450 4800 50  0001 C CNN
+	1    8450 4800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 4800 9000 4800
+Wire Wire Line
+	9000 4800 9000 4600
+Connection ~ 8450 4800
+Wire Wire Line
+	3100 3600 3500 3600
+Text Label 6650 3900 2    50   ~ 0
+V_IO
+NoConn ~ 8050 4400
+$Comp
+L Device:R R2
+U 1 1 60ED09D5
+P 6650 4150
+F 0 "R2" H 6720 4196 50  0000 L CNN
+F 1 "10k" H 6720 4105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0402_1005Metric" V 6580 4150 50  0001 C CNN
+F 3 "~" H 6650 4150 50  0001 C CNN
+	1    6650 4150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6650 4300 6700 4300
+Wire Wire Line
+	6650 3900 6650 3950
+Wire Wire Line
+	6650 3950 7100 3950
+Wire Wire Line
+	7100 3950 7100 4000
+Connection ~ 6650 3950
+Wire Wire Line
+	6650 3950 6650 4000
+$Comp
+L my-kicad-symbols:NJM2866F33 U2
+U 1 1 60ED38A2
+P 7100 4300
+F 0 "U2" H 7150 4650 50  0000 C CNN
+F 1 "NJM2866F33" H 7350 4550 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7100 4300 50  0001 C CNN
+F 3 "" H 7100 4300 50  0001 C CNN
+	1    7100 4300
+	1    0    0    -1  
+$EndComp
+NoConn ~ 7500 4400
+$Comp
+L power:GND #PWR0108
+U 1 1 60ED514C
+P 7100 4600
+F 0 "#PWR0108" H 7100 4350 50  0001 C CNN
+F 1 "GND" H 7105 4427 50  0000 C CNN
+F 2 "" H 7100 4600 50  0001 C CNN
+F 3 "" H 7100 4600 50  0001 C CNN
+	1    7100 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C4
+U 1 1 60ED568F
+P 7650 4350
+F 0 "C4" H 7765 4396 50  0000 L CNN
+F 1 "1uf" H 7765 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 7688 4200 50  0001 C CNN
+F 3 "~" H 7650 4350 50  0001 C CNN
+	1    7650 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR0109
+U 1 1 60ED5F23
+P 7650 4100
+F 0 "#PWR0109" H 7650 3950 50  0001 C CNN
+F 1 "+3V3" H 7665 4273 50  0000 C CNN
+F 2 "" H 7650 4100 50  0001 C CNN
+F 3 "" H 7650 4100 50  0001 C CNN
+	1    7650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4100 7650 4200
+Wire Wire Line
+	7650 4200 7500 4200
+Connection ~ 7650 4200
+$Comp
+L power:+3V3 #PWR0110
+U 1 1 60ED69C1
+P 8450 4000
+F 0 "#PWR0110" H 8450 3850 50  0001 C CNN
+F 1 "+3V3" H 8465 4173 50  0000 C CNN
+F 2 "" H 8450 4000 50  0001 C CNN
+F 3 "" H 8450 4000 50  0001 C CNN
+	1    8450 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 4500 7650 4600
+Wire Wire Line
+	7650 4600 7100 4600
+Connection ~ 7100 4600
+$Comp
+L Device:C C3
+U 1 1 60ED7980
+P 6400 4350
+F 0 "C3" H 6515 4396 50  0000 L CNN
+F 1 "0.1uf" H 6515 4305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6438 4200 50  0001 C CNN
+F 3 "~" H 6400 4350 50  0001 C CNN
+	1    6400 4350
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 4200 6400 3950
+Wire Wire Line
+	6400 3950 6650 3950
+Wire Wire Line
+	6400 4500 6400 4600
+Wire Wire Line
+	6400 4600 7100 4600
 $EndSCHEMATC

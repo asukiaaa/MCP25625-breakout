@@ -1,4 +1,4 @@
-18596161898342141
+18607548630864141
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -83986,6 +83986,13 @@ varistor SIOV
 2
 2
 my-kicad-footprints
+1x02_P2.54mm_Pads
+surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
+Surface mounted pin header SMD 2x03 2.54mm double row
+0
+2
+2
+my-kicad-footprints
 2x02_P2.54mm_USB_Pads
 surface-mounted straight pin header, 2x03, 2.54mm pitch, double rows
 Surface mounted pin header SMD 2x03 2.54mm double row
@@ -84196,6 +84203,13 @@ Through hole pin header THT 1x08 2.54mm single row
 10
 10
 my-kicad-footprints
+PinHeader_1x11_P2.54mm_Vertical_witout_silk
+Through hole straight pin header, 1x08, 2.54mm pitch, single row
+Through hole pin header THT 1x08 2.54mm single row
+0
+11
+11
+my-kicad-footprints
 PinHeader_2x15_P2.54mm_M5Stack
 surface-mounted straight pin header, 2x15, 2.54mm pitch, double rows
 Surface mounted pin header SMD 2x15 2.54mm double row
@@ -84216,6 +84230,13 @@ Surface mounted socket strip SMD 2x15 2.54mm double row
 0
 30
 30
+my-kicad-footprints
+Pin_1x03_P2.54mm_nosilk
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+3
+3
 my-kicad-footprints
 Pin_1x04_P2.54mm_nosilk
 Through hole straight pin header, 1x04, 2.54mm pitch, single row
@@ -84252,6 +84273,13 @@ https://toshiba.semicon-storage.com/jp/semiconductor/design-development/package/
 9
 3
 my-kicad-footprints
+SW_Push_TVAF06
+https://akizukidenshi.com/download/ds/jianfu/tvaf06-a020b-r.pdf
+SMD SMT button
+0
+4
+3
+my-kicad-footprints
 SlideSwitch_IS-2235_2posi_2line
 http://akizukidenshi.com/download/ds/switronic/IS-2235-G_20191212.pdf
 slide switch
@@ -84273,12 +84301,26 @@ solder jumper open
 2
 2
 my-kicad-footprints
+SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+2
+2
+my-kicad-footprints
 SparkFun_ProMicro
 atmega32u4 module, https://www.sparkfun.com/products/12640
 atmega32u4 microcontroller
 0
 24
 24
+my-kicad-footprints
+Terminal_9.52mm_1x02_1714971
+https://media.digikey.com/pdf/Data%20Sheets/Phoenix%20Contact%20PDFs/1714971.pdf
+
+0
+2
+2
 my-kicad-footprints
 USB_C_Receptacle_HRO_TYPE-C-Neltron
 USB Type-C receptacle for USB 2.0 and PD, https://akizukidenshi.com/download/ds/akizuki/5077CR-16-SMC2-BK-TR.pdf
@@ -84300,6 +84342,13 @@ http://akizukidenshi.com/catalog/g/gP-00244/
 0
 5
 4
+my-kicad-footprints
+WQFN48-0707
+
+
+0
+49
+49
 my-kicad-footprints
 adamtech_1x04_7.5mm_vertical
 https://www.digikey.jp/products/ja?keywords=EB167A-04-M-180

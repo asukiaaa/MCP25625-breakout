@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 115)
+    (start_pass_no 742)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -64,8 +64,9 @@
   )
   (class "kicad_default"
     GND "/V_IO" "/V_DDA" /CANL /CANH /INT /CS /SI
-    /SO /SCK "Net-(U1-Pad21)" "Net-(U1-Pad25)" "Net-(U1-Pad20)" "Net-(U1-Pad23)" "Net-(U1-Pad22)" "Net-(U1-Pad18)"
-    "Net-(U1-Pad12)" "Net-(U1-Pad11)" "Net-(U1-Pad9)" "Net-(U1-Pad8)" "Net-(U1-Pad7)" "Net-(U1-Pad6)" "Net-(U1-Pad2)" "Net-(JP1-Pad1)"
+    /SO /SCK "Net-(U1-Pad21)" "Net-(U1-Pad25)" "Net-(U1-Pad20)" "Net-(U1-Pad23)" "Net-(U1-Pad22)" "Net-(U1-Pad12)"
+    "Net-(U1-Pad11)" "Net-(U1-Pad8)" "Net-(U1-Pad7)" "Net-(U1-Pad6)" "Net-(U1-Pad2)" "Net-(R1-Pad2)" "Net-(SW1-Pad3)" +3V3
+    /16MHz "Net-(R2-Pad2)" /RESET "Net-(U2-Pad4)" "Net-(U3-Pad3)" "Net-(U3-Pad2)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
