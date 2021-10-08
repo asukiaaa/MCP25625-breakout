@@ -22,3 +22,9 @@ Schematic: [docs/mcp25625-breakout.pdf](docs/mcp25625-breakout.pdf)
 ## License
 
 MIT
+
+## References
+
+- [CanBusMCP2515-arduino](https://github.com/asukiaaa/CanBusMCP2515-arduino)
+- [CANをArduinoで使ってみた](https://asukiaaa.blogspot.com/2021/07/canarduino.html)
+- [製品紹介 MCP25625-breakout](https://asukiaaa.blogspot.com/2021/06/mcp25625-breakout.html)
