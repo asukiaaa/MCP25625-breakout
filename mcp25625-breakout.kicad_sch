@@ -470,7 +470,7 @@
         )
       )
     )
-    (symbol "my-kicad-symbols:SW_Slide_with_cover" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "asukiaaa-kicad-symbols:SW_Slide_with_cover" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "SW" (id 0) (at 0 4.318 0)
         (effects (font (size 1.27 1.27)))
       )
@@ -1062,7 +1062,7 @@
     (pin "9" (uuid 09a8de4b-11bd-4c60-8212-7dfa542a987e))
   )
 
-  (symbol (lib_id "my-kicad-symbols:SW_Slide_with_cover") (at 168.91 63.5 0) (mirror y) (unit 1)
+  (symbol (lib_id "asukiaaa-kicad-symbols:SW_Slide_with_cover") (at 168.91 63.5 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 00000000-0000-0000-0000-000060bd7c69)
     (property "Reference" "SW1" (id 0) (at 168.91 56.261 0))
@@ -1209,13 +1209,13 @@
       (reference "C4") (unit 1) (value "22pf") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060a42d68"
-      (reference "J1") (unit 1) (value "Conn_01x11") (footprint "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk")
+      (reference "J1") (unit 1) (value "Conn_01x11") (footprint "asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk")
     )
     (path "/00000000-0000-0000-0000-00006097b02f"
       (reference "R1") (unit 1) (value "120") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/00000000-0000-0000-0000-000060bd7c69"
-      (reference "SW1") (unit 1) (value "SW_Slide_with_cover") (footprint "my-kicad-footprints:slide_switch_smd")
+      (reference "SW1") (unit 1) (value "SW_Slide_with_cover") (footprint "asukiaaa-kicad-footprints:slide_switch_smd")
     )
     (path "/00000000-0000-0000-0000-000060968f8d"
       (reference "U1") (unit 1) (value "MCP25625-x-SS") (footprint "Package_SO:SSOP-28_5.3x10.2mm_P0.65mm")

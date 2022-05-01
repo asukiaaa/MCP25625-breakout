@@ -3,10 +3,10 @@
   (base_design "mcp25625-breakout.dsn")
   (placement
     (resolution um 10)
-    (component "my-kicad-footprints:slide_switch_smd"
+    (component "asukiaaa-kicad-footprints:slide_switch_smd"
       (place SW1 1608400 -760000 front 90)
     )
-    (component "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
+    (component "asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
       (place J1 1380000 -840000 front 90)
     )
     (component "Package_TO_SOT_SMD:SOT-23-5"

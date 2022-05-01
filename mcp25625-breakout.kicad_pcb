@@ -172,7 +172,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk" (layer "F.Cu")
     (tedit 60EAF088) (tstamp 00000000-0000-0000-0000-000060a41f75)
     (at 138 84 90)
     (descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
@@ -362,7 +362,7 @@
     )
   )
 
-  (footprint "my-kicad-footprints:slide_switch_smd" (layer "F.Cu")
+  (footprint "asukiaaa-kicad-footprints:slide_switch_smd" (layer "F.Cu")
     (tedit 60EAF913) (tstamp 00000000-0000-0000-0000-000060bd2c03)
     (at 160.84 76 90)
     (descr "https://akizukidenshi.com/download/ds/alps/ssaj120100.pdf")

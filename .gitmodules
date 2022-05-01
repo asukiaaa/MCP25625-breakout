@@ -1,6 +1,6 @@
-[submodule "my-kicad-footprints.pretty"]
-	path = my-kicad-footprints.pretty
-	url = git@github.com:asukiaaa/my-kicad-footprints.git
-[submodule "my-kicad-symbols"]
-	path = my-kicad-symbols
-	url = git@github.com:asukiaaa/my-kicad-symbols.git
+[submodule "asukiaaa-kicad-symbols"]
+	path = asukiaaa-kicad-symbols
+	url = git@github.com:asukiaaa/asukiaaa-kicad-symbols.git
+[submodule "asukiaaa-kicad-footprints.pretty"]
+	path = asukiaaa-kicad-footprints.pretty
+	url = git@github.com:asukiaaa/asukiaaa-kicad-footprints.pretty.git

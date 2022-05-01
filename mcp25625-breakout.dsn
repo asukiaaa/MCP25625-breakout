@@ -39,10 +39,10 @@
     )
   )
   (placement
-    (component "my-kicad-footprints:slide_switch_smd"
+    (component "asukiaaa-kicad-footprints:slide_switch_smd"
       (place SW1 160840 -76000 front 90 (PN SW_Slide_with_cover))
     )
-    (component "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
+    (component "asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
       (place J1 138000 -84000 front 90 (PN Conn_01x11))
     )
     (component "Package_TO_SOT_SMD:SOT-23-5"
@@ -69,7 +69,7 @@
     )
   )
   (library
-    (image "my-kicad-footprints:slide_switch_smd"
+    (image "asukiaaa-kicad-footprints:slide_switch_smd"
       (outline (path signal 150  2800 -1230  2800 -538.48))
       (outline (path signal 150  -2800 -1230  -2800 -538.48))
       (outline (path signal 120  2750 -1180  2750 1320))
@@ -89,7 +89,7 @@
       (pin RoundRect[T]Pad_1000x900_225.856_um 4 3150 0)
       (pin RoundRect[T]Pad_1000x900_225.856_um 4@1 -3150 0)
     )
-    (image "my-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
+    (image "asukiaaa-kicad-footprints:PinHeader_1x11_P2.54mm_Vertical_witout_silk"
       (outline (path signal 50  1800 1800  -1800 1800))
       (outline (path signal 50  1800 -27170  1800 1800))
       (outline (path signal 50  -1800 -27170  1800 -27170))
