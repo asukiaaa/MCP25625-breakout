@@ -1,0 +1,9 @@
+Reference,Quantity,Value,Url,Memo
+C1 C2,2,0402 0.1u,https://www.digikey.jp/product-detail/ja/taiyo-yuden/EMK105BJ104KV-F/587-1226-1-ND/931003,I don’t mind vendor if it support over 10V.
+C3 C4,2,0402 22p,,I don’t mind vendor if it support over 10V.
+J1,1,L pin header 01x10,https://akizukidenshi.com/catalog/g/gC-01627/,I don’t mind vendor.
+R1,1,0402 120,https://www.digikey.jp/product-detail/ja/yageo/RC0402JR-07120RL/311-120JRCT-ND/2827967,I don’t mind vendor if it is equal or less than 5%.
+R2,1,0402 10k,,I don’t mind vendor if it is equal or less than 5%.
+SW1,1,SW_Slide_with_cover,https://www.mouser.com/ProductDetail/Alps-Alpine/SSAJ120100?qs=35GPJvxY%252Bl5mRNwFoBrl2g%3D%3D,
+U1,1,MCP25625-x-SS,https://www.digikey.jp/product-detail/ja/microchip-technology/MCP25625T-E-SS/MCP25625T-E-SSCT-ND/9450517,
+Y1,1,Crystal 16MHz,https://www.digikey.jp/product-detail/ja/epson/FA-238-16-0000MB-K3/SER4046CT-ND/5175138,
