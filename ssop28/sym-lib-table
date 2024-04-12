@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name asukiaaa-kicad-symbols)(type Legacy)(uri ${KIPRJMOD}/../asukiaaa-kicad-symbols/asukiaaa-kicad-symbols.lib)(options "")(descr ""))
+)
