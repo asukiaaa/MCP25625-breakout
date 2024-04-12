@@ -1,5 +1,5 @@
 
-(rules PCB mcp25625-breakout
+(rules PCB mcp25625-breakout-ssop28
   (snap_angle 
     fortyfive_degree
   )

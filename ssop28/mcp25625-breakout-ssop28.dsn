@@ -1,4 +1,4 @@
-(pcb "/home/asuki/kicad_projects/mcp25625-breakout/mcp25625-breakout.dsn"
+(pcb "/home/asuki/kicad_projects/mcp25625-breakout-ssop28/mcp25625-breakout-ssop28.dsn"
   (parser
     (string_quote ")
     (space_in_quoted_tokens on)

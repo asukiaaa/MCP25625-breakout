@@ -1,6 +1,6 @@
 
-(session "mcp25625-breakout.ses"
-  (base_design "mcp25625-breakout.dsn")
+(session "mcp25625-breakout-ssop28.ses"
+  (base_design "mcp25625-breakout-ssop28.dsn")
   (placement
     (resolution um 10)
     (component "asukiaaa-kicad-footprints:slide_switch_smd"

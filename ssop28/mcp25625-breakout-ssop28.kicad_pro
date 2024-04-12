@@ -395,7 +395,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "mcp25625-breakout.kicad_pro",
+    "filename": "mcp25625-breakout-ssop28.kicad_pro",
     "version": 1
   },
   "net_settings": {

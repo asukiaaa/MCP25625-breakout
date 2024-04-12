@@ -68,7 +68,7 @@
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "mcp25625-breakout.kicad_prl",
+    "filename": "mcp25625-breakout-ssop28.kicad_prl",
     "version": 3
   },
   "project": {
