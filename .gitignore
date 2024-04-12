@@ -3,3 +3,4 @@ gerber_to_order
 *.sch-bak
 *-backups
 fp-info-cache
+*.lck
